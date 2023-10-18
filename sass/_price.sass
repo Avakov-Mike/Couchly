@@ -1,0 +1,67 @@
+.price
+    margin-top: 120px
+    &-content
+        &_bg
+            height: 800px
+            position: relative
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+        &_top
+            &-items
+                position: absolute
+                top: 0
+                display: flex
+                width: 100%
+                height: 100%
+            &-item
+                position: absolute
+                &_left
+                    top: 310px
+                    left: 300px
+                &_center
+                    top: 645px
+                    left: 1030px
+                &_right
+                    top: 360px
+                    left: 1325px
+                &_plus
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    cursor: pointer
+                    width: 55px
+                    height: 55px
+                    border-radius: 50%
+                    border: 1px $white solid
+                    color: $white
+                &_names
+                    display: flex
+                    flex-direction: column
+                    position: absolute
+                    min-width: 187px
+                    top: -100px
+                    left: 80px
+                    padding: 20px 25px
+                    border-radius: 15px
+                    border: 1px solid rgba(255, 255, 255, 0.50)
+                    background: rgba(255, 255, 255, 0.30)
+                    backdrop-filter: blur(12px)
+                    // &-active
+                    //     display: flex
+                    &-title
+                        color: $white
+                        font-family: Urbanist
+                        font-size: 18px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: normal
+                        margin-bottom: 10px
+                    &-subtitle
+                        color: $white
+                        font-family: Urbanist
+                        font-size: 18px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: normal

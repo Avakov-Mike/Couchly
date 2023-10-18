@@ -1,0 +1,108 @@
+.product
+    &-content
+        margin-top: 120px
+        &_head
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-bottom: 30px
+            &-title
+                &_text
+                    color: $title
+                    font-family: Urbanist
+                    font-size: 45px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 60px
+                    text-transform: capitalize
+            &-text
+                color: $text
+                font-family: Urbanist
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: 28px
+            &-pagination
+                display: flex
+                justify-content: space-between
+                align-items: center
+                &_left
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    color: $bgnbtn
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
+                    border: 1px $bgnbtn solid
+                    margin-right: 20px
+                    &:hover
+                        cursor: pointer
+                        background-color: $bgnbtn
+                        color: $white
+                        transition: 0.9s
+                &_right
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    color: $bgnbtn
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
+                    border: 1px $bgnbtn solid
+                    &:hover
+                        cursor: pointer
+                        background-color: $bgnbtn
+                        color: $white
+                        transition: 0.9s
+        &_slide
+            display: flex
+            justify-content: space-between
+            align-items: flex-start
+            flex-wrap: wrap
+            &-item
+                max-width: 430px
+                &_image
+                    max-width: 430px
+                    max-height: 460px
+                    margin-bottom: 30px
+                    img
+                        width: 100%
+                        height: 100%
+                        object-fit: cover
+                        border-radius: 30px
+                &_name
+                    color: $text
+                    font-family: Urbanist
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: normal
+                    margin-bottom: 15px
+                &_title
+                    color: $title
+                    font-family: Urbanist
+                    font-size: 20px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: 35px
+                    margin-bottom: 5px
+                &_discription
+                    color: $text
+                    font-family: Urbanist
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: normal
+                &_content
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                &_price
+                    color: $bgnbtn
+                    text-align: right
+                    font-family: Urbanist
+                    font-size: 20px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: normal

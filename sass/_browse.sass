@@ -1,0 +1,110 @@
+.browse
+    background: rgba(217, 217, 217, 0.10)
+    &-content
+        margin-top: 120px
+        &_top
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &-left
+                margin-right: 85px
+                &_title
+                    color: $title
+                    font-family: Urbanist
+                    font-size: 45px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 60px
+                    text-transform: capitalize
+                    margin-bottom: 15px
+                &_text
+                    display: block
+                    color: $text
+                    font-family: Urbanist
+                    font-size: 16px
+                    font-style: normal
+                    font-weight: 400
+                    line-height: 28px
+                    margin-bottom: 30px
+                &_images
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    width: 75%
+            &-right
+                position: relative
+                text-align: center
+                &_bg
+                    width: 690px
+                    height: 400px
+                    img
+                        width: 100%
+                        height: 100%
+                        border-radius: 30px 30px 0px 0px
+                &_items
+                    color: $white
+                    width: 90%
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    position: absolute
+                    z-index: 1
+                    top: 325px
+                    left: 40px
+                    &-title
+                        font-family: Urbanist
+                        font-size: 20px
+                        font-style: normal
+                        font-weight: 600
+                        line-height: normal
+                    &-button
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        width: 50px
+                        height: 50px
+                        border-radius: 50%
+                        border: 1px $white solid
+        &_bottom
+            &-items
+                display: flex
+                align-items: center
+            &-item
+                position: relative
+            &-action
+                color: $white
+                width: 80%
+                display: flex
+                justify-content: space-between
+                align-items: center
+                position: absolute
+                z-index: 1
+                top: 325px
+                left: 40px
+                &_title
+                    font-family: Urbanist
+                    font-size: 20px
+                    font-style: normal
+                    font-weight: 600
+                    line-height: normal
+                &_button
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 50px
+                    height: 50px
+                    border-radius: 50%
+                    border: 1px $white solid
+            &-bg
+                width: 450px
+                height: 400px
+                img
+                    background: rgba(0, 0, 0, 0.20)
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    z-index: -1
+                &_first
+                    border-radius: 30px 0 0 30px
+                &_last
+                    border-radius: 0px 0 30px 0

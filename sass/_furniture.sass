@@ -1,0 +1,72 @@
+.furniture
+    &-content
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        position: relative
+        margin-bottom: 80px
+        &_title
+            margin-bottom: 20px
+            &-text
+                display: flex
+                justify-content: center
+                align-items: center
+                color: $title
+                font-family: Urbanist
+                font-size: 55px
+                font-style: normal
+                font-weight: 700
+                line-height: 70px
+                text-align: center
+        &_subtitle
+            &-text
+                display: flex
+                justify-content: center
+                align-items: center
+                color: $text
+                text-align: center
+                font-family: Urbanist
+                font-size: 16px
+                font-style: normal
+                font-weight: 400
+                line-height: 28px
+        &_search
+            display: flex
+            align-items: center
+            border-radius: 15px
+            box-shadow: 0px 4px 80px 0px rgba(175, 173, 181, 0.20)
+            padding: 15px 15px 15px 30px
+            position: absolute
+            background-color: $white
+            top: 256px
+            &-input
+                border: none
+                outline: none
+                color: $text
+                font-family: Urbanist
+                font-size: 18px
+                font-style: normal
+                font-weight: 400
+                line-height: normal
+                margin-right: 472px
+            &-link
+                color: $white
+                padding: 15px 35px
+                border-radius: 10px
+                background: #236000
+    &-bg
+        display: flex
+        justify-content: center
+        align-items: center
+        &_image
+            width: 1720px
+            height: 628px
+            img
+                border-radius: 30px
+                width: 100%
+                height: 100%
+                object-fit: cover
+.fas.fa-search
+    color: $text
+    margin-right: 15px
