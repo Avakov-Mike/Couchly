@@ -133,6 +133,7 @@ input {
   top: 256px;
 }
 .furniture-content_search-input {
+  width: 450px;
   border: none;
   outline: none;
   color: #AFADB5;
@@ -141,7 +142,7 @@ input {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-right: 472px;
+  margin-right: 170px;
 }
 .furniture-content_search-link {
   color: #fff;
@@ -728,6 +729,8 @@ input {
   justify-content: space-between;
   align-items: center;
   width: 720px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 50px 0px rgba(35, 96, 0, 0.03);
 }
 .customer-content_slide-avatar {
   min-width: 245px;
