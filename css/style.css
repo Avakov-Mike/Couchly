@@ -609,4 +609,97 @@ input {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.price-content_bottom {
+  background: linear-gradient(to left, rgb(18, 48, 1) 50%, transparent 50%);
+}
+.price-content_bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 120px 0 120px 120px;
+  background: rgb(18, 48, 1);
+  border-radius: 0px 0px 0px 30px;
+  position: relative;
+}
+.price-content_bottom-content_left {
+  flex-basis: 35%;
+}
+.price-content_bottom-content_left-title {
+  color: #fff;
+  font-family: Urbanist;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.price-content_bottom-content_left-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-content_bottom-content_left-item_title {
+  color: #fff;
+  font-family: Urbanist;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.price-content_bottom-content_left-item_subtitle {
+  color: #AFADB5;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.price-content_bottom-content_right {
+  flex-basis: 53%;
+}
+.price-content_bottom-content_right-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.price-content_bottom-content_right-item:last-child {
+  margin-bottom: 0;
+}
+.price-content_bottom-content_right-item_image {
+  margin-right: 25px;
+}
+.price-content_bottom-content_right-item_text-title {
+  color: #fff;
+  font-family: Urbanist;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.price-content_bottom-content_right-item_text-subtitle {
+  color: var(--Paragraph-Color, #AFADB5);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.price-content_bottom-content_gravity {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+}
+.price-content_bottom-content_gravity-top {
+  left: 0;
+  bottom: 30px;
+}
+.price-content_bottom-content_gravity-bottom {
+  left: 30px;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */

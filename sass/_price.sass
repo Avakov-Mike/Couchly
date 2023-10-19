@@ -65,3 +65,82 @@
                         font-style: normal
                         font-weight: 700
                         line-height: normal
+        &_bottom
+            background: linear-gradient(to left, rgb(18, 48, 1) 50%, transparent 50%)
+            &-content
+                display: flex
+                justify-content: space-between
+                align-items: start
+                padding: 120px 0 120px 120px
+                background: rgb(18, 48, 1)
+                border-radius: 0px 0px 0px 30px
+                position: relative
+                &_left
+                    flex-basis: 35%
+                    &-title
+                        color: $white
+                        font-family: Urbanist
+                        font-size: 25px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 60px
+                        text-transform: capitalize
+                        margin-bottom: 25px
+                    &-items
+                        display: flex
+                        justify-content: space-between
+                        align-items: center
+                    &-item
+                        &_title
+                            color: $white
+                            font-family: Urbanist
+                            font-size: 40px
+                            font-style: normal
+                            font-weight: 500
+                            line-height: normal
+                            margin-bottom: 10px
+                        &_subtitle
+                            color: $text
+                            font-family: Urbanist
+                            font-size: 16px
+                            font-style: normal
+                            font-weight: 500
+                            line-height: normal
+                &_right
+                    flex-basis: 53%
+                    &-item
+                        display: flex
+                        justify-content: space-between
+                        align-items: center
+                        margin-bottom: 40px
+                        &:last-child
+                            margin-bottom: 0
+                        &_image
+                            margin-right: 25px
+                        &_text
+                            &-title
+                                color: $white
+                                font-family: Urbanist
+                                font-size: 22px
+                                font-style: normal
+                                font-weight: 600
+                                line-height: normal
+                                margin-bottom: 15px
+                            &-subtitle
+                                color: var(--Paragraph-Color, $text)
+                                font-family: Urbanist
+                                font-size: 16px
+                                font-style: normal
+                                font-weight: 400
+                                line-height: 28px
+                &_gravity
+                    position: absolute
+                    width: 30px
+                    height: 30px
+                    background: $white
+                    &-top
+                        left: 0
+                        bottom: 30px
+                    &-bottom
+                        left: 30px
+                        bottom: 0
