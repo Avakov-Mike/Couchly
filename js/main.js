@@ -1,12 +1,22 @@
 const swiper = new Swiper('.product-content_sliders', {
-  // pagination: {
-  //   el: '.swiper-pagination',
-  //   clickable: true,
-  // },
   navigation: {
     nextEl: '.product-content_head-pagination_right',
     prevEl: '.product-content_head-pagination_left',
   },
+});
+
+const swiperTwo = new Swiper('.customer-content_sliders', {
+  grid: {
+    rows: 3,
+  },
+  pagination: {
+    el: '.customer-content_sliders-pagination',
+    clickable: true,
+  },
+  // navigation: {
+  //   nextEl: '.product-content_head-pagination_right',
+  //   prevEl: '.product-content_head-pagination_left',
+  // },
 });
 
 
