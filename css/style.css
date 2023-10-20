@@ -809,6 +809,9 @@ input {
   line-height: 30px;
 }
 
+.footer {
+  background: linear-gradient(to right, #D9D9D9 40%, transparent 50%);
+}
 .footer-content {
   display: flex;
   justify-content: space-between;
