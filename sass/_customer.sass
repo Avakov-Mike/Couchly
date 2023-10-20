@@ -1,5 +1,6 @@
 .customer
     &-content
+        position: relative
         padding-top: 120px
         &_title
             text-align: center
@@ -16,6 +17,17 @@
                 color: $form
                 text-align: center
                 margin-top: 65px
+            &-navigation
+                position: absolute
+                color: $bgnbtn
+                font-size: 30px
+                bottom: -9px
+                &_left
+                    left: 40%
+                &_right
+                    right: 41%
+                &:hover
+                    cursor: pointer
         &_slide
             display: flex
             justify-content: space-between
@@ -45,7 +57,7 @@
                     width: 15px
                     height: 15px
                     background-image: url(img/customer/star.svg)
-                    // background-size: no-repeat
+                    background-size: no-repeat
                     background-position: center
                     background-size: cover
                     margin-bottom: 15px
