@@ -903,13 +903,20 @@ input {
   font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
+}
+.footer-content_right-line {
+  display: block;
+  width: 573px;
+  height: 1px;
+  background: #F3F3F3;
+  margin-bottom: 50px;
 }
 .footer-content_right-soc {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 63px;
+  margin-bottom: 74px;
 }
 .footer-content_right-soc_inst, .footer-content_right-soc_fb, .footer-content_right-soc_ld {
   color: #151411;
