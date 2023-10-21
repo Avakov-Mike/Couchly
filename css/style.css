@@ -77,8 +77,9 @@ input {
   padding: 15px 35px;
   background-color: #236000;
   border-radius: 10px;
-}
-.header-menu_button-link {
+  outline: none;
+  border: none;
+  cursor: pointer;
   color: #fff;
   font-family: Urbanist;
   font-size: 18px;
@@ -190,7 +191,7 @@ input {
   line-height: 60px;
   margin-bottom: 30px;
 }
-.mission-content_left-link {
+.mission-content_left-button {
   color: #fff;
   font-family: Urbanist;
   font-size: 18px;
@@ -200,6 +201,8 @@ input {
   padding: 15px 35px;
   border-radius: 10px;
   background: #236000;
+  border: none;
+  cursor: pointer;
 }
 .mission-content_right {
   max-width: 50%;
@@ -418,7 +421,7 @@ input {
 .browse-content_top-left {
   margin-right: 85px;
 }
-.browse-content_top-left_title {
+.browse-content_top-left_title-text {
   color: #151411;
   font-family: Urbanist;
   font-size: 45px;
@@ -710,11 +713,11 @@ input {
   position: relative;
   padding-top: 120px;
 }
-.customer-content_title {
+.customer-content_title-text {
   text-align: center;
   color: #151411;
   font-family: Urbanist;
-  font-size: 30px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
@@ -868,7 +871,7 @@ input {
 .footer-content_right-title {
   margin-bottom: 15px;
 }
-.footer-content_right-title h1 {
+.footer-content_right-title_text {
   color: #151411;
   font-family: Urbanist;
   font-size: 45px;
